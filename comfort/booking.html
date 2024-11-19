@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comfort Guest House</title>
+    <link rel="stylesheet" href="./booking.css">
+</head>
+
+<body>
+
+    <div class="banner">
+        <h1>BOOK NOW</h1>
+        <p>“Your Comfort, Our Priority.”</p>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="#rooms">View Rooms</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="#services">Book Now</a>
+            <a href="contact us.html">Contact Us</a>
+        </div>
+    </div>
+    <section class="offers-section">
+        <h2>Special Offers & Deals</h2>
+
+
+        <div class="offer-card">
+            <div class="offer-title">Weekend Getaway Special</div>
+            <div class="offer-details">
+                Book a stay for the weekend and enjoy 20% off your room rate. Includes complimentary breakfast and late
+                check-out.
+            </div>
+            <div class="offer-price">Save 20%!</div>
+            <a href="./special offer booking.html" class="offer-button">Book Now</a>
+        </div>
+
+        <!-- Offer 2 -->
+        <div class="offer-card">
+            <div class="offer-title">Holiday Package Deal</div>
+            <div class="offer-details">
+                Celebrate the holidays with us and get 15% off for stays of 3 nights or more. Free festive dinner
+                included.
+            </div>
+            <div class="offer-price">Save 15%!</div>
+            <a href="./special offer booking.html" class="offer-button">Book Now</a>
+        </div>
+
+        <!-- Offer 3 -->
+        <div class="offer-card">
+            <div class="offer-title">Extended Stay Discount</div>
+            <div class="offer-details">
+                Planning a long stay? Enjoy a 25% discount on bookings of 7 nights or more, plus a free airport pickup
+                service.
+            </div>
+            <div class="offer-price">Save 25%!</div>
+            <a href="./special offer booking.html" class="offer-button">Book Now</a>
+        </div>
+
+    </section>
+
+    <div class="joy">
+        <h1 class="vox">Guest House Booking Form</h1>
+        <form action="booking-confirmation.html" method="POST">
+
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for="checkIn">Check-in Date:</label>
+                <input type="date" id="checkIn" name="checkIn" required>
+            </div>
+
+            <div class="form-group">
+                <label for="checkOut">Check-out Date:</label>
+                <input type="date" id="checkOut" name="checkOut" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for="roomType">Room Type:</label>
+                <select id="roomType" name="roomType" required>
+                    <option value="">Select Room Type</option>
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="specialRequests">Special Requests:</label>
+                <textarea id="specialRequests" name="specialRequests" rows="4"
+                    placeholder="Any special requests?"></textarea>
+            </div>
+
+
+            <div class="form-group">
+                <button type="submit" class="submit-btn">Book Now</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Subscribe to Our Newsletter</h3>
+                <form action="#" method="post">
+                    <input type="email" placeholder="Enter your email" class="newsletter-input">
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Our Location</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.6770485368743!2d31.073678319013926!3d0.7739987959971758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x17630dad99002bf1%3A0x48344137701588fe!2sComfort%20Guest%20House!5e0!3m2!1sen!2sug!4v1727346039887!5m2!1sen!2sug"
+                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Phone: +256773131960</p>
+                <p>Phone: +256772435790</p>
+                <p>Phone: +256754784006</p>
+                <p>Email:<a href="talemwarobert630@gmail.com">talemwarobert630@gmail.com</a></p>
+                <p>Address: kizizi Rd, kibaale, uganda</p>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Comfort Guest House . All Rights Reserved. |Designed by Talemwa Robert</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

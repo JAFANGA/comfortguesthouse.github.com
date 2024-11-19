@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    background-image: url('./assets/images/comfort\ 11.jpg'); /* Replace with actual image URL */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+    padding: 10px;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.banner a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.banner a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.offers-section {
+    background-color: #ffffff;
+    padding: 50px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.offers-section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.offer-card {
+    background-color: #f0f8ff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.offer-card:hover {
+    transform: scale(1.02);
+}
+
+.offer-title {
+    font-size: 1.2em;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.offer-details {
+    color: #666;
+    line-height: 1.6;
+}
+
+.offer-price {
+    font-size: 1.1em;
+    color: #d9534f;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.offer-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: #ffffff;
+    background-color: #5cb85c;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offer-button:hover {
+    background-color: #4cae4c;
+}
+.joy{
+    max-width: 700px;
+    margin: 50px auto;
+    background-color:#002244;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.vox {
+    text-align: center;
+    color: #e7e7e7;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: white;
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.submit-btn:hover {
+    background-color: #45a049;
+}
+/* Footer Styling */
+.footer {
+    background-color: #002244;
+    color: white;
+    padding: 40px 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter-input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe-btn {
+    padding: 10px 20px;
+    background-color: #f1c40f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.subscribe-btn:hover {
+    background-color: #d4a20d;
+}
+
+.map-embed {
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ffffff33;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
